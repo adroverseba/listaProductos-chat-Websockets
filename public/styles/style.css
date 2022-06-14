@@ -23,8 +23,9 @@ body {
 }
 
 #output {
-  max-height: 400px;
+  height: 300px;
   overflow-y: scroll;
+  /* border: #999 1px; */
 }
 
 #actions p {

@@ -52,13 +52,14 @@ const render = function (data) {
     let html = data
       .map((elem) => {
         return `<p>
-    <span><strong>${elem.userName}</strong>:</span>
-    <span id="message-date">[${elem.date}]</span>
-    <span> <em>${elem.message}</em></span>
+    <span class="text-primary"><strong>${elem.userName}</strong>:</span>
+    <span id="message-date" style="color:brown" >[${elem.date}]</span>
+    <span class="text-success"> <em>${elem.message}</em></span>
     </p>`;
       })
       .join(" ");
     output.innerHTML = html;
+    window.scrollTo(0, document.body.scrollHeight);
     output.scrollTo(0, document.body.scrollHeight);
   } else {
     output.innerHTML = `<h4>No hay mensajes</h4>`;

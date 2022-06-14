@@ -20,6 +20,8 @@
 <body>
   <div class="container">
 
+    <h1 class="text-center my-3">Tienda Virtual Tecnologica 🦄</h1>
+
     <!-- formulario -->
     <h2>Cargar nuevo Producto</h2>
     <div class="row">
@@ -35,7 +37,7 @@
           <label for="url">URL</label>
           <input id="url" type="url" name="foto" placeholder="https://" class="form-control">
 
-          <input type="submit" class="btn btn-primary btn-sm btn-block" value="Agregar">
+          <input type="submit" class="btn btn-primary btn-sm btn-block my-2" value="Agregar">
         </form>
 
       </div>
@@ -44,20 +46,17 @@
     <hr class="my-4">
 
     <!-- PRODUCTOS  -->
-    <h2>Lista de Productos</h2>
+    <h2>Productos</h2>
     <div id="productos"></div>
 
     <!-- chat  -->
     <h2>Mensajero</h2>
 
-    <form id="enviarMensaje">
+    <form id="enviarMensaje" class="my-3">
       <div id="output"></div>
-      <input type="email" id="usuario" placeholder="Ingrese su mail">
-      <input type="text" id="mensaje" placeholder="Tu mensaje">
-      <input type="submit" value="Enviar" class="btn btn-primary">
-    </form>
-
-
+      <input type="email" id="usuario" placeholder="Ingrese su mail" required>
+      <input type="text" id="mensaje" placeholder="Tu mensaje" required>
+      <input type="submit" value="Enviar" class="btn btn-primary btn-sm">
     </form>
 
     <script src="./js/main.js"></script>

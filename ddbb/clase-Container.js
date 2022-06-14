@@ -12,7 +12,6 @@ class Container {
       console.log(error);
     }
   }
-
   async save(objeto) {
     try {
       //genero la lectura del archivo JSON y lo guardo en la variable read

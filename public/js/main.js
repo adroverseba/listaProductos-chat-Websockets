@@ -29,11 +29,6 @@ ingresoProducto.addEventListener("submit", (e) => {
   ingresoProducto.reset();
 });
 
-// document.getElementById("send-form").addEventListener("click", (e) => {
-//   socket.emit("new-product");
-//   e.preventDefault();
-// });
-
 // +++++++++++++++++++++++++
 const chat = document.getElementById("enviarMensaje");
 
@@ -64,6 +59,7 @@ const render = function (data) {
       })
       .join(" ");
     output.innerHTML = html;
+    output.scrollTo(0, document.body.scrollHeight);
   } else {
     output.innerHTML = `<h4>No hay mensajes</h4>`;
   }

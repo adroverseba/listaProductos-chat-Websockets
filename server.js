@@ -1,7 +1,6 @@
-const { log } = require("console");
 const express = require("express");
 const { Server: HttpServer } = require("http");
-const { Server: IOServer, Socket } = require("socket.io");
+const { Server: IOServer } = require("socket.io");
 const Container = require("./ddbb/clase-Container");
 const Mensajes = require("./ddbb/clase-Mensajes");
 
@@ -31,7 +30,7 @@ io.on("connection", async (socket) => {
   socket.emit("productos", await productos.getAll()); // envio a los clientes nuevos conectado los productos
   // recibo el producto  nuevo,  lo guardo y envio la lista
   socket.on("agregarProducto", async (producto) => {
-    console.log(producto);
+    // console.log(producto);
     await productos.save(producto);
     io.sockets.emit("productos", await productos.getAll());
   });

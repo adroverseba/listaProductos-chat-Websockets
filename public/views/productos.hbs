@@ -1,0 +1,36 @@
+<div>
+  <h3 class="text-center my-4">Lista de Productos</h3>
+  {{#if product}}
+    <table class="table table-striped table-hover">
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>titulo</th>
+          <th>precio</th>
+          <th>miniatura</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each product}}
+          <tr>
+            <th>
+              {{this.id}}
+            </th>
+            <td>
+              {{this.title}}
+            </td>
+            <td>
+              {{this.price}}
+            </td>
+            <td>
+              <img src=" {{this.thumbnail}} " alt="Producto" height="60px" />
+            </td>
+          </tr>
+        {{/each}}
+      </tbody>
+
+    </table>
+  {{else}}
+    <h3 class="alert alert-danger">No se encontraron datos de productos</h3>
+  {{/if}}
+</div>

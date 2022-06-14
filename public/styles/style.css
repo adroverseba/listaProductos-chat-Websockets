@@ -1,0 +1,58 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+#chat-container {
+  max-width: 600px;
+  margin: 30px auto;
+  border: 1px solid #ddd;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#chat-window {
+  padding: 14px 0;
+  margin: 0 20px;
+  border-bottom: 1px solid #a9e9e9;
+  color: #555;
+}
+
+#output p {
+  color: #aaa;
+  padding: 14px 0;
+  margin: 0 20px;
+}
+
+#output {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+#actions p {
+  padding: 14px 0;
+  margin: 0 20px;
+  border-bottom: 1px solid #999;
+  color: #555;
+}
+
+#username,
+#message {
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: 0;
+  background: #eee;
+  display: block;
+  width: 100%;
+}
+
+.btn {
+  background: #575ed8;
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 0;
+  width: 15%;
+  border-radius: 0 0 2px 2px;
+}
+
+#message-date {
+  color: #999;
+}

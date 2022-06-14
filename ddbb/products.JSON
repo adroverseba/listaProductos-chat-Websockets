@@ -1,0 +1,50 @@
+[
+  {
+    "title": "teclado",
+    "price": "5000",
+    "thumbnail": "https://gorilagames.com/img/Public/1019-producto-redragon-kumara-red-76.jpg",
+    "id": 1
+  },
+  {
+    "title": "mouse",
+    "price": "3000",
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_648202-MLA44079102059_112020-O.jpg",
+    "id": 2
+  },
+  {
+    "title": "auricular gaming",
+    "price": "7000",
+    "thumbnail": "https://mexx-img-2019.s3.amazonaws.com/Auricular-Gamer-Redragon-Zeus-H510-Rgb_41187_1.jpeg",
+    "id": 3
+  },
+  {
+    "title": "pad xl",
+    "price": "3000",
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_717790-MLA31016708771_062019-O.jpg",
+    "id": 4
+  },
+  {
+    "title": "gatito de la suert",
+    "price": "4444",
+    "thumbnail": "http://d2r9epyceweg5n.cloudfront.net/stores/001/150/806/products/41hxiy3o6jl-_sx500_sy500_cr00500500_1-bbad863a4de0957b3416168563326591-640-0.jpg",
+    "id": 5
+  },
+  {
+    "title": "xcs zxc",
+    "price": "1111",
+    "thumbnail": "https://mexx-img-2019.s3.amazonaws.com/37154_1.jpeg",
+    "id": 6
+  },
+  {
+    "title": "Silla Gamer Thunder X3  TC3 ",
+    "price": "60000",
+    "thumbnail": "https://axa.com.ar/webaxa/24853/silla-gamer-premium-thunder-x3-tc3-ember-red-by-aerocool.jpg",
+    "id": 7
+  },
+  {
+    "title": "notebook idea pad 3",
+    "price": "10000",
+    "thumbnail": "https://www.venex.com.ar/products_images/1627485219_notebook-lenovo-ideapad-3-ryzen-7-3700u-8gb-ssd-512gb-14-w10.jpg",
+    "id": 8
+  }
+]
